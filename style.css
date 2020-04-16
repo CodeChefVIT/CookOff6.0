@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+
+.NAV{
+	color: #fff;
+
+}
+
 .anchor{
 
 	font-family: Roboto;
@@ -476,3 +482,4 @@ line-height: 42px;
 
 color: #D4AF37;
 }
+/*footer*/
