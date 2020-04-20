@@ -14,88 +14,12 @@ line-height: 42px;
 
 color: #FFFFFF;
 }
-.white-dots{
-	position: relative;
-}
-.white-dots::before {
-    position: absolute;
-    content: "";
-    background-image: url(images/images.png);
-    z-index: -1;
-    background-repeat: repeat;
-    top: -50px;
-    left: -50px;
-    width: 100%;
-    height: 100%;
-    opacity: 0.2;
-}
-
-
-
-.img-fuild{
-	max-width: 100%;
-	height:auto;
-}
-img{
-	vertical-align: middle;
-
-}
-
-body{
-	background-color:  #171717;
-}
-
-#welcome{
-	background-image: url('open2.jpg');
-}
-.heading12{
-	display: inline;
-
-width:50%;
-height:50%;
-
-
-font-family: 'Montserrat', sans-serif;
-
-font-style: normal;
-font-weight: 600;
-font-size: 65px;
-line-height: 79px;
-
-color: #FFFCFC;
-
-}
- 
-
- .on{
-margin-top: 200px;
-
-margin-bottom: 120px;
-
-}
-.info{
-
-width: 50%;
-height: 50%;
-
-
-
-
-background: #171717;
-border: 1px solid #FFFFFF;
-box-sizing: border-box;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 50px;
-
-
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: lighter;
-font-size: 24px;
-line-height: 42px;
-
-color: #FF6D6D;
-
+.container1{
+  background-image: url(images/back2.jpg);
+  height: 400px;
+  max-width: 645px;
+  width:100%;
+  background-color: red;
 }
 
 
