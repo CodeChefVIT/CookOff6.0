@@ -280,11 +280,10 @@ margin-bottom: 150px
 
 .boxsec3{
     height: 900px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 94.9%);
-    background: url(../images/codechefgroup.jpg) no-repeat fixed center ;
-    background-size: cover;
-    z-index: 1;
-  }
+
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 94.9%), url(../images/codechefgroup.jpg) center center no-repeat;
+  background-size: cover;
+}
 
 
 
