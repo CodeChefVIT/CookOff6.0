@@ -8,64 +8,12 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/e872fa63b1.js" crossorigin="anonymous"></script>
+
 
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <style type="text/css">
-    .container {
-/*  max-width: 960px;*/
-}
-
-
-/* */
-
-.panel-default>.panel-heading {
-  color: #333;
-  background-color: #fff;
-  border-color: #e4e5e7;
-  padding: 0;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-.panel-default>.panel-heading a {
-  display: block;
-  padding: 10px 15px;
-}
-
-.panel-default>.panel-heading a:`after {
-  content: "";
-  position: relative;
-  top: 1px;
-  display: inline-block;
-  font-family: 'Glyphicons Halflings';
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  float: right;
-  transition: transform .25s linear;
-  -webkit-transition: -webkit-transform .25s linear;
-}
-
-.panel-default>.panel-heading a[aria-expanded="true"] {
-  background-color: #eee;
-}
-
-.panel-default>.panel-heading a[aria-expanded="true"]:after {
-  content: "\2212";
-  -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
-}
-
-.panel-default>.panel-heading a[aria-expanded="false"]:after {
-  content: "\002b";
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
-  </style>
+ 
+  
 
 
 </head>
@@ -79,7 +27,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" 0 href="#"><p class="header1">Codechef</p></a>
+      <a class="navbar-brand" 0 href="#" align="left"><img src="images/CC white logo .png"width="100px" height="30px"></a>
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
@@ -92,61 +40,41 @@
   </div>
 </div>
 
-<br><br>
 <!--section 1-->
 
 
- <section id="welcome ">
-  
-  <div class="on">
-  <div class="container ">
-    <div class="row">
-      <div class="col-md-5 mt-5 pt-5"  > 
+<div class="boxsec">
 
-    <p class="heading12 mb-3">Cook Off 6.0</p>
-    <br><br>
-       <p class="mt-5">
-      <button class="info">
-      Read More
-    </button>
-  </p>
- 
-  </div>
-    <div class="col-md-6 ml-auto " >
-      <div class="white-dots">
+<center><div  class="luis" style="padding-top: 110px;">
+	<form style="">
+	<fieldset>
+  <legend style="">CODECHEF-VIT</legend>
+  <p class="text4">present</p>
+  <p class="text5">COOK OFF 6.0</p>
+</fieldset>
+</form>
+<div></center>
+<br><br><br><br>
+<center><button class="butt0"><p class="butt1">Read More</p></button></center>
 
-    <img   src="images/open2.jpg" class="img-fuild"   style="border: 1px solid #000000;
-box-sizing: border-box;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 30px;">
- </div> </div>
-</div>
-</div>
 </div>
 
-</section>
 <br><br><br>
 
 
 <!--section2-->
 <section id ="about">
-<!--   <div class="box1">
-    <p class="heading2">Coming Soon</p>
-  </div>  -->
-  <div class="row1" style="display: flex;">
-    <div class="col1" style="float: left; width: 10%;">
-      <hr>
-    </div>
-    <div class="col1  style="float:left; width: 30%; padding-bottom: 50px;">
-      <div class=" box1" >
- <center><p class="heading2" >Coming Soon</p></center>
-      </div>
-    </div>
-    <div class="col1" style="float: left; width: 60%;">
-      <hr>
-    </div>
-  </div>
-<br><br><br><br>
+	<div style="padding-right: 30px; ">
+		<p align="right" style=" font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 31px;
+line-height: 38px;
+
+color: #FFFCFC;">Coming soon</p>
+	</div>  
+ 
+<br>
   <div class=" container " id="box2">
 <div id="myCarousel" class="carousel slide" data-ride="carousel" >
   <!-- Indicators -->
@@ -188,30 +116,52 @@ border-radius: 30px;">
 </div>
 </div>
 </div>
-<br><br><br>
+<br><br>
 
 <!--TImer-->
 <div class="new">
-<div id="year" class="year"></div>
+<div id="countdown" class="countdown" style="width: 100%;">
+<table width="60%" style="margin: 0 auto;">
+    <tr>
+    	<td class="abc"> <div class="time a">
+       <p id="days">00</p>
+        <small style="font-family: Montserrat;
+
+font-style: normal;
+font-weight: 600;">days</small>  </div></td>
+<td  style="width: 8%;"></td>
+    
+    	<td class="abc"><div class="time a" >
+        <p id="hours">00</p>
+        <small style="font-family: Montserrat;
+font-style: normal;
+font-weight: 600;">hours</small>
+      </div> </td>
+<td  style="width: 8%;"></td>
+      <td class="abc" ><div class="time a">
+          <p id="minutes">00</p>
+        <small style="font-family: Montserrat;
+font-style: normal;
+font-weight: 600;">minutes</small>
+      </div></td>
+<td  style="width: 8%;"></td>
+    	
+    	<td class="abc"><div class="time a">
+         <p id="seconds">00</p>
+        <small style="font-family: Montserrat;
+font-style: normal;
+font-weight: 600;">seconds</small>
+      </div></td>
+  </tr>
+</table>
 
 
-    <div id="countdown" class="countdown">
-      <div class="time">
-        <h2 id="days">00</h2>
-        <small>days</small>
-      </div>
-      <div class="time">
-        <h2 id="hours">00</h2>
-        <small>hours</small>
-      </div>
-      <div class="time">
-        <h2 id="minutes">00</h2>
-        <small>minutes</small>
-      </div>
-      <div class="time">
-        <h2 id="seconds">00</h2>
-        <small>seconds</small>
-      </div>
+
+    	
+     
+      
+     
+      
     </div>
 
     <img
@@ -222,128 +172,47 @@ border-radius: 30px;">
     />
 
  </div>
+
+ <hr class="linetime"><br>
+ <center><table style="padding: 10px;">
+ 	<tr colspan="2">
+ 		<td colspan="2">
+   
+    <span class="text3" >
+      <i class="fas fa-map-marker-alt"> </i><p style="display: inline">  </p>SJT 101
+    </span></td>
+    <td  style="width: 30px;"></td>
+ 		<td> 
+    
+    <span class="text1" ><i class="far fa-clock"></i><p style="display: inline">  </p>9am-4pm</span></td>
+    <td style="width: 20px;"></td>
+ 		<td>
+    
+    <span class="text2" >
+    <i class="far fa-calendar-alt"></i><p style="display: inline">  </p>5 September</span></td>
+</tr>
+ </table></center>
+ <br>
+ <br>
 </section>
 
 <!--about-->
 
-<section id="contact">
-  <div class="container" id="box1">
-  <ul id="myTabs" class="nav nav-pills  nav-justified" role="tablist" data-tabs="tabs">
-    <li class=" active"><a href="#About" data-toggle="tab"><div class="pills10">
-  <img src="icons/user (3).png">
-  <p >About</p>
-</div></a></li>
-    <li><a href="#Videos" data-toggle="tab"> <div class="pills10">
-      <img src="icons/email (2).png">
-      <p >Contact Me</p>
-
-  </div></a></li>
-    <li><a href="#Events" data-toggle="tab"><div>
-    <img src="icons/newspaper (1).png">
-  <p class="pills10">Faq</p>
-  </div></a></li>
-  </ul>
-  <div class="tab-content">
-    <div role="tabpanel" class="tab-pane fade in active  " id="About">
+<section id="contact" class="boxsec3">
+ 
+ 	<div style="margin-bottom: 0px; padding-top: 40%">
       <center>  
-      <h1 class="he">About The Event</h1>
+      <p class="he">About The Event</p>
         <p class="para">Cook Off 6.0, an amalgamation of coding. To gain enough amount of time to solve as many competitive coding problems, something of equal value must be given. Come join us  and find out the value of your coding time. In this heat, all you need to do is code  in an A/C room for 10 hours with competitors  and food and a possibility of winning cash prize! Register Now! ₹300  only</p>
       </center>
-    </div>
-    <div role="tabpanel" class="tab-pane fade" id="Videos">
-    <center>
-
-                  <h1 class="he">Get In Touch.</h1>
-                  <p class="para">We will be more than happy to hear from you!</p>
-                          <p class="para"><img src="icons/call.png"> <br><span> +91-992536253618</span><br>
-                                   <span> +91-8617041002</span><br> 
-                                <strong><img src="icons/email (2).png"><br><span> codechefvit@gmail.com</span></strong>
-                             </p>  </center>
-    </div>
-    <div role="tabpanel" class="tab-pane fade" id="Events">
-      <h1 class="he">FAQs</h1>
-<p class="para">For more details, follow our <a href="https://www.facebook.com/codechefvituniversity/" target="_blank">Facebook</a> page and stay tuned!</p>
-
-
-
-<div class="container">
-  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-    <div class="panel panel-default">
-      <div class="panel-heading" role="tab" id="headingOne">
-        <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          What is CookOff 6.0?
-        </a>
-      </h4>
-      </div>
-      <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-        <div class="panel-body">Competative coding.
-        </div>
-      </div>
-    </div>
-    <div class="panel panel-default">
-      <div class="panel-heading" role="tab" id="headingTwo">
-        <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-         Is it a team event?
-        </a>
-      </h4>
-      </div>
-      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-        <div class="panel-body">
-          No Guys
-        </div>
-      </div>
-    </div>
-    <div class="panel panel-default">
-      <div class="panel-heading" role="tab" id="headingThree">
-        <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-      How long is the event?
-        </a>
-      </h4>
-      </div>
-      <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-        <div class="panel-body">
-       Its a 10Hour event
-        </div>
-      </div>
-    </div>
   </div>
-</div>
+   
+   
 
 
 
 
-</div>
-  </div>
-</div>
 </section>
-<section>
- 
-  <div class="box423">
-    <center>
-      <img src="icons/clock.png" >
-    <br><br><br>
-    <span class="text1" >9am-4pm</span>
-    <br><br><br>
-    <img src="icons/event.png"  >
-    <br> <br><br>
-    <span class="text2" >
-    15 September</span></center>
-    <br><br><br>
-    <center><img src="icons/maps-and-flags.png" >
-    <br> <br><br>
-    <span class="text3" >
-      SJT 101
-    </span>
-  </center>
-  </center>
-  <br><br><br><br><br>
-</div>
-
-
-</div>
 <div class="box3">
   <center>
 <p class="para2">
@@ -365,40 +234,59 @@ Registration
 
 
 </section>
-<br><br><br>
 <footer>
-  <center><img src="images/CC white logo .png" width="20%"></center>
+<!--   <center><img src="images/CC white logo .png" width="20%"></center>
   <center><hr class="line6"></center>
-  <br><br><br>
-<hr class="line7">  <div class="container-fluid box7">
-  <div class="text-center">
-    <p class="he4">You can find us at</p>
-    <br><br>
-    <center><ul class="list-unstyled list-inline">
-      <li class="list-inline-item">
-        <a href="#!" class="sbtn btn-large mx-5" style="padding: 20px;" title="Facebook">
-       <img src="icons/facebook.png">
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a href="#!" class="sbtn btn-large mx-5"  style="padding: 20px;"title="Linkedin">
-        <img src="icons/github.png">
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a href="#!" class="sbtn btn-large mx-5" style="padding: 20px;"title="Twitter">
-          <img src="icons/instagram (2).png">
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a href="#!" class="sbtn btn-large mx-5" style="padding: 20px;" title="Youtube">
-        <img src="icons/linkedin (1).png">
-        </a>
-      </li>
-    </ul>
-  </div>
+  <br><br><br> -->
+<div class="fluid-container foot1" style="height: 600px;">
+	<div class="row">
+	<div class="col-sm-6 " style="padding-top: 80px;">
+		<div style="padding-left: 50px;">
+		<p class="w1h">CONTACT US </p>
+	</div>
+		<br><br><br>
+		<div style="padding-left: 40px;">
+		
+		<p class="w1p1" style="display: inline-block;"><a href="mailto:codechefvit@gmail.com"><i class="far fa-envelope"></i> codechefvit@gmail.com</a></p>
+		</div>
+		<br>
+		<div style="padding-left: 40px;">
+		
+		<p class="w1p1" style="display: inline-block;"><a href="https://www.instagram.com/codechefvit/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i> codechefvit</a></p>
+		</div><br>
+		<div style="padding-left: 40px;">
+		
+		<p class="w1p1"style="display: inline-block;"><a href="https://www.facebook.com/codechefvit/" target="_blank"><i class="fab fa-facebook-square" aria-hidden="true"></i>  codechefvit</a></p>
+		</div>
+		<br>
+		<div style="padding-left: 40px;">
+	
+		<p class="w1p1" style="display: inline-block;"><a href="https://github.com/codechefvit" target="_blank"><i class="fab fa-github" aria-hidden="true"></i>   codechefvit</a></p>
+	</div>
+	</div>
+
+	<div class="col-sm-6" style="padding-left: 50px; padding-top: 80px;">
+		<p class="w2h2">SUBSCRIBE TO OUT NEWS LETTER</p>
+		
+		<br>
+		<input type="text" name="name" placeholder="name" style="background-color: Transparent;color: #454545;">
+		<br><br><br>
+		<input type="text" name="email" placeholder="email" style="background-color: Transparent;color: #454545;">
+		<br><br><br>
+		<button class="butt2"><p style="font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 34px;
+line-height: 41px;
+
+color: #000000;
+">Subscribe</p></button>
+
+	</div>
 </div>
-</center>
+
+</div>
+
 </footer>
 
 
