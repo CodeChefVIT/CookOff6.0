@@ -324,8 +324,8 @@ color: #FFFFFF;
 font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
-font-size: 25px;
-line-height: 162%;
+font-size: 24px;
+line-height: 140%;
 /* or 45px */
 
 text-align: center;
@@ -461,6 +461,7 @@ width: 100%;
 background: #034E4A;
 height: 450px;
 padding-top: 50px;
+
 
 
 }
