@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
 
+*{
+    box-sizing: border-box;
+}
+
 .nav-link:hover{
     background:#228999;
 }
@@ -17,11 +21,11 @@ body{
 
 #home{
   background: rgba(0, 0, 0, 0.5);
-  height: 100vh;
+ 
 
 }
 .boxsec{
-  height:100vh;
+  height:120vh;
     background: url(../back2.jpg) no-repeat  center;
     background-size: cover;
 
