@@ -2,46 +2,38 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
 
+.nav-link:hover{
+    background:#228999;
+}
 
-
+.navbar-default{
+  background-color:  #171717;
+}
 body{
   background-color:  #171717;
 }
 
-.header1{
-  font-family: Roboto;
-font-style: normal;
-font-weight: 900;
-font-size: 26px;
 
 
-color: #C0C0C0;
+#home{
+  background: rgba(0, 0, 0, 0.5);
+  height: 100vh;
 
-}
-.nav.navbar-nav.navbar-right li a {
-    color: red;
-}
-
-.anchor{
-
-	font-family: Roboto;
-font-style: normal;
-font-weight: 900;
-font-size: 35px;
-line-height: 42px;
-
-color: #FFFFFF;
 }
 .boxsec{
-  height: 800px;
-    background: url(../back3.png) no-repeat fixed center;
+  height:100vh;
+    background: url(../back2.jpg) no-repeat  center;
     background-size: cover;
 
+    
 /*
    background-origin: content-box;
    background-size: auto;
  
 */
+}
+.luis{
+  z-index: 4;
 }
 
 legend { 
@@ -98,6 +90,15 @@ box-sizing: border-box;
 
 
 }
+
+  .butt0 > a{
+  text-decoration: none;
+  color: white;
+}
+ .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
 
 
 /*section2*/
@@ -302,7 +303,7 @@ color: #FFFFFF;
 font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
-font-size: 28px;
+font-size: 25px;
 line-height: 162%;
 /* or 45px */
 
@@ -482,6 +483,10 @@ line-height: 41px;
 color: #FFFFFF;
 
 }
+.bt1:hover{
+  background-color: #33cc33; 
+  opacity: 0.8;
+}
 .line2{
 	background: #35716E;
 border: 1px solid #35716E;
@@ -638,4 +643,11 @@ color: #FFFDFD
     background-size: cover;
       background-size: 80% auto;
 
+}
+.butt2{
+  text-align: center;
+  background: #FFFFFF;
+border-radius: 5px;
+width: 255.36px;
+height: 63.19px;
 }
