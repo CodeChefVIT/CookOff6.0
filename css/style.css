@@ -1,6 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+/*/*/*/*/*/*/*/*/*@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
+
+@media
+    only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (-o-min-device-pixel-ratio: 3/2),
+    only screen and (min--moz-device-pixel-ratio: 1.5),
+    only screen and (min-device-pixel-ratio: 1.5){
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+    }
+
+  }
+
+
+
 
 *{
     box-sizing: border-box;
@@ -25,7 +42,7 @@ body{
 
 }
 .boxsec{
-  height:120vh;
+  height:130vh;
     background: url(../back2.jpg) no-repeat  center;
     background-size: cover;
 
@@ -510,7 +527,7 @@ height: 92px;
 width: 20%;
 margin-left: 70%;
 }
-.para4{
+.04{
 width: 213px;
 height: 61px;
 font-family: Roboto;
@@ -654,4 +671,4 @@ color: #FFFDFD
 border-radius: 5px;
 width: 255.36px;
 height: 63.19px;
-}
+}*/*/*/*/*/*/*/*/*/
