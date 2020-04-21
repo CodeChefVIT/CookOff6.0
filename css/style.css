@@ -36,11 +36,7 @@ body{
 
 
 
-#home{
-  background: rgba(0, 0, 0, 0.5);
- 
 
-}
 .boxsec{
   height:130vh;
     background: url(../back2.jpg) no-repeat  center;
@@ -53,9 +49,8 @@ body{
  
 */
 }
-.luis{
-  z-index: 4;
-}
+
+
 
 legend { 
   font-family: Montserrat;
