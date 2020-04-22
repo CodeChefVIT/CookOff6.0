@@ -1,42 +1,49 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+/*/*/*/*/*/*/*/*/*@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
 
+@media
+    only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (-o-min-device-pixel-ratio: 3/2),
+    only screen and (min--moz-device-pixel-ratio: 1.5),
+    only screen and (min-device-pixel-ratio: 1.5){
+
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+    }
+
+  }
 
 
+
+
+*{
+    box-sizing: border-box;
+
+}
+
+.nav-link:hover{
+    background:#228999;
+}
+
+.navbar-default{
+  background-color:  #171717;
+}
 body{
   background-color:  #171717;
 }
 
-.header1{
-  font-family: Roboto;
-font-style: normal;
-font-weight: 900;
-font-size: 26px;
 
 
-color: #C0C0C0;
 
-}
-.nav.navbar-nav.navbar-right li a {
-    color: red;
-}
-
-.anchor{
-
-	font-family: Roboto;
-font-style: normal;
-font-weight: 900;
-font-size: 35px;
-line-height: 42px;
-
-color: #FFFFFF;
-}
 .boxsec{
-  height: 800px;
-    background: url(../back3.png) no-repeat fixed center;
+  height:130vh;
+    background: url(../back2.jpg) no-repeat  center;
     background-size: cover;
 
+    
 /*
    background-origin: content-box;
    background-size: auto;
@@ -44,13 +51,14 @@ color: #FFFFFF;
 */
 }
 
-legend { 
+
+.new123 { 
   font-family: Montserrat;
   border:none;
 font-style: normal;
 font-weight: 500;
 font-size: 73px;
-line-height: 89px;
+
 
 color: #FFFCFC;
 }
@@ -59,7 +67,6 @@ color: #FFFCFC;
 font-style: normal;
 font-weight: 500;
 font-size: 35px;
-line-height: 43px;
 
 color: #FFFCFC;
 text-align: center;
@@ -69,11 +76,56 @@ text-align: center;
 font-style: normal;
 font-weight: 800;
 font-size: 100px;
-line-height: 122px;
+
 
 color: #FFFCFC;
 
 }
+
+@media (max-width: 500px){
+.new123{
+  font-family: Montserrat;
+  border:none;
+font-style: normal;
+font-weight: 500;
+font-size: 60px;
+
+
+color: #FFFCFC;
+
+}
+
+.text4{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+
+color: #FFFCFC;
+text-align: center;
+}
+.text5{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 90px;
+
+
+color: #FFFCFC;
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+
 
 .butt1{
   font-family: Montserrat;
@@ -98,6 +150,15 @@ box-sizing: border-box;
 
 
 }
+
+  .butt0 > a{
+  text-decoration: none;
+  color: white;
+}
+ .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
 
 
 /*section2*/
@@ -302,8 +363,8 @@ color: #FFFFFF;
 font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
-font-size: 28px;
-line-height: 162%;
+font-size: 24px;
+line-height: 140%;
 /* or 45px */
 
 text-align: center;
@@ -441,6 +502,7 @@ height: 450px;
 padding-top: 50px;
 
 
+
 }
 .para2{
 	
@@ -482,6 +544,10 @@ line-height: 41px;
 color: #FFFFFF;
 
 }
+.bt1:hover{
+  background-color: #33cc33; 
+  opacity: 0.8;
+}
 .line2{
 	background: #35716E;
 border: 1px solid #35716E;
@@ -501,7 +567,7 @@ height: 92px;
 width: 20%;
 margin-left: 70%;
 }
-.para4{
+.04{
 width: 213px;
 height: 61px;
 font-family: Roboto;
@@ -639,3 +705,10 @@ color: #FFFDFD
       background-size: 80% auto;
 
 }
+.butt2{
+  text-align: center;
+  background: #FFFFFF;
+border-radius: 5px;
+width: 255.36px;
+height: 63.19px;
+}*/*/*/*/*/*/*/*/*/
