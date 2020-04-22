@@ -21,7 +21,7 @@
 
 *{
     box-sizing: border-box;
-    border: 2px solid red;
+
 }
 
 .nav-link:hover{
@@ -50,7 +50,10 @@ body{
  
 */
 }
-
+.navbar-toggler-icon{
+  color: white;
+  background: #fff;
+}
 
 
 legend { 
