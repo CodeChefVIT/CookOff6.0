@@ -50,10 +50,6 @@ body{
  
 */
 }
-.navbar-toggler-icon{
-  color: white;
-  background: #fff;
-}
 
 
 .new123 { 
@@ -62,7 +58,7 @@ body{
 font-style: normal;
 font-weight: 500;
 font-size: 73px;
-line-height: 89px;
+
 
 color: #FFFCFC;
 }
@@ -71,7 +67,6 @@ color: #FFFCFC;
 font-style: normal;
 font-weight: 500;
 font-size: 35px;
-line-height: 43px;
 
 color: #FFFCFC;
 text-align: center;
@@ -81,11 +76,56 @@ text-align: center;
 font-style: normal;
 font-weight: 800;
 font-size: 100px;
-line-height: 122px;
+
 
 color: #FFFCFC;
 
 }
+
+@media (max-width: 500px){
+.new123{
+  font-family: Montserrat;
+  border:none;
+font-style: normal;
+font-weight: 500;
+font-size: 60px;
+
+
+color: #FFFCFC;
+
+}
+
+.text4{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+
+color: #FFFCFC;
+text-align: center;
+}
+.text5{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 90px;
+
+
+color: #FFFCFC;
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+
 
 .butt1{
   font-family: Montserrat;
