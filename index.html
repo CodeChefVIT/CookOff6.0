@@ -24,8 +24,8 @@
 
     <meta itemprop="name" content="Cook Off">
     <meta itemprop="description" content="cook-off is  for coders . Register now for only 300/-">
-  
-
+  	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
@@ -38,7 +38,7 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <script src="https://kit.fontawesome.com/e872fa63b1.js" crossorigin="anonymous"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="icon"  href="favicon.ico">
@@ -50,7 +50,7 @@
 </head>
 <body >
 	<div class="container" width="80%">
- <nav class="navbar navbar-expand-lg navbar-default fixed-top">
+ <nav class="navbar navbar-expand-lg navbar-default fixed-top" style="font-family: 'Poppins', sans-serif;">
   <a class="navbar-brand" href="#"><img src="images/CC white logo .png" style=" margin-top:0px;width: 130px;
 height: 50px;"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" >
@@ -59,37 +59,41 @@ height: 50px;"></a>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav ml-auto" >
       <li class="nav-item active">
-        <a class="nav-link" style="font-family: Poppins;
-font-style: normal;
+        <a class="nav-link scrollTo" style="
+
 font-weight: bold;
 font-size: 24px;
+margin-right: 70px;
 
 /* identical to box height */
 
-
-color: #FFFFFF" href="#home">Home <span class="sr-only">(current)</span></a>
+color: #FFFFFF" href="#home" >ABOUT <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" style="font-family: Poppins;
-font-style: normal;
+        <a class="nav-link scrollTo" style="
+
 font-weight: bold;
 font-size: 24px;
+
+margin-right: 70px;
 
 /* identical to box height */
 
 
-color: #FFFFFF" href="#Registration">Registration</a>
+color: #FFFFFF" href="#Registration">REGISTRATION</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" style="font-family: Poppins;
-font-style: normal;
+        <a class="nav-link  scrollTo" style="
+
 font-weight: bold;
 font-size: 24px;
+
+margin-right: 70px;
 
 /* identical to box height */
 
 
-color: #FFFFFF" href="#contactus">Contact Us</a>
+color: #FFFFFF" href="#contactus">CONTACT US</a>
       </li>
 
       
@@ -97,7 +101,7 @@ color: #FFFFFF" href="#contactus">Contact Us</a>
 </nav>
 </div>
 <!--section 1-->
-<section id="home">
+<div >
 
 <div class="boxsec">
 
@@ -111,26 +115,18 @@ color: #FFFFFF" href="#contactus">Contact Us</a>
 </form>
 <div></center>
 <br><br>
-<center><button class="butt0"><a href="#about"><p class="butt1">Read More</p></a></button></center>
+<center><button class="butt0"><a href="#about" class="scrollTo"><p class="butt1">Read More</p></a></button></center>
 
 </div>
 
-</section>
+</div>
 
 <br>
 
 
 <!--section2-->
 <section id ="about">
-	<div style="width: 80%">
-		<p align="right" style=" font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 31px;
-line-height: 38px;
-
-color: #FFFCFC;">Coming soon</p>
-	</div>  
+ 
 	<br>
  <div class="container">
 <div id="demo" class="carousel slide" data-ride="carousel">
@@ -184,29 +180,33 @@ color: #FFFCFC;">Coming soon</p>
         <small style="font-family: Montserrat;
 
 font-style: normal;
-font-weight: 600;">days</small>  </div></td>
+font-size: 21px;
+font-weight: 600;">Days</small>  </div></td>
 <td  style="width: 8%;"></td>
     
     	<td class="abc"><div class="time a" >
         <p id="hours">00</p>
         <small style="font-family: Montserrat;
 font-style: normal;
-font-weight: 600;">hours</small>
+font-size: 21px;
+font-weight: 600;">Hours</small>
       </div> </td>
 <td  style="width: 8%;"></td>
       <td class="abc" ><div class="time a">
           <p id="minutes">00</p>
-        <small style="font-family: Montserrat;
+        <p style="font-family: Montserrat;
+        font-size: 21px;
 font-style: normal;
-font-weight: 600;">minutes</small>
+font-weight: 600;">Minutes</p>
       </div></td>
 <td  style="width: 8%;"></td>
     	
     	<td class="abc"><div class="time a">
          <p id="seconds">00</p>
-        <small style="font-family: Montserrat;
+        <p style="font-family: Montserrat;
+        font-size: 21px;
 font-style: normal;
-font-weight: 600;">seconds</small>
+font-weight: 600;">Seconds</p>
       </div></td>
   </tr>
 </table>
@@ -253,8 +253,8 @@ font-weight: 600;">seconds</small>
 </section>
 
 <!--about-->
-
-<section id="contact" class="boxsec3" style=" padding-top: 40%;">
+<div id="home">
+<div id="contact " class="boxsec3 " style=" padding-top: 40%;">
  <div class="container">
  	<div style=" margin-bottom: 50px;">
  		<div class="row">
@@ -269,12 +269,13 @@ font-weight: 600;">seconds</small>
 
 
 
-</section >
-<section id="Registration">
+</div >
+</div>
+<div id="Registration">
 <div class="box3">
   <center>
 <p class="para2">
-Registration
+REGISTRATION
 </p>
 <hr class="line2">
 <p class="para3">
@@ -291,8 +292,8 @@ Registration
 
 
 
-</section >
-<footer id="contactus">
+</div>
+<div id="contactus">
 <!--   <center><img src="images/CC white logo .png" width="20%"></center>
   <center><hr class="line6"></center>
   <br><br><br> -->
@@ -346,7 +347,7 @@ color: #000000;
 
 </div>
 
-</footer>
+</div>
 
 
     
@@ -363,36 +364,19 @@ color: #000000;
 
 
 
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
-  </script><script src="javascript/script.js"></script>
-  <script type="text/javascript">
-  	$(document).ready(function(){
-  // Add scrollspy to <body>
-  $('body').scrollspy({target: ".navbar", offset: 50});   
 
-  // Add smooth scrolling on all links inside the navbar
-  $("#navbarNavDropdown a").on('click', function(event) {
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
+<script src="javascript/script.js"></script>
 
-      // Store hash
-      var hash = this.hash;
+   <script>
+         $(".scrollTo").on('click', function(e) {
+     e.preventDefault();
+     var target = $(this).attr('href');
+     $('html, body').animate({
+       scrollTop: ($(target).offset().top - 76)
+     }, 1000);
+    });
+   </script>
 
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    }  // End if
-  });
-});
-  </script>
 
 
 </body>
