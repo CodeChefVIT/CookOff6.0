@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
-@media
+/*@media
     only screen and (-webkit-min-device-pixel-ratio: 1.5),
     only screen and (-o-min-device-pixel-ratio: 3/2),
     only screen and (min--moz-device-pixel-ratio: 1.5),
@@ -15,7 +15,9 @@
     overflow-x:hidden;
     }
 
-  }
+  }*/
+
+
 body{
   font-family: 'Montserrat', sans-serif;
 }
@@ -24,6 +26,7 @@ body{
 
 *{
     box-sizing: border-box;
+  
 
 
 
@@ -43,6 +46,8 @@ body{
   height:130vh;
     background: url(../back2.jpg) no-repeat  center;
     background-size: cover;
+
+    width: 100%;
 
     
 /*
@@ -89,7 +94,7 @@ color: #FFFCFC;
   border:none;
 font-style: normal;
 font-weight: 500;
-font-size: 40px;
+font-size: 30px;
 
 
 color: #FFFCFC;
@@ -115,6 +120,20 @@ font-size: 70px;
 color: #FFFCFC;
 
 }
+/*.para2{
+  
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+
+
+color: #FFFDFD;
+
+}
+*/
+
+
 
 
 
@@ -122,10 +141,15 @@ color: #FFFCFC;
 }
 
 
+@media(max-width: 480px){
+.nav-item > a {
+margin-right: 0px;
+}
+.navbar-default{
+  width: 100vw;
+}
 
-
-
-
+}
 
 
 .butt1{
@@ -299,6 +323,7 @@ font-weight: 600;
 
   .time {
     margin: 5px;
+
   }
 
   .time h2 {
@@ -342,9 +367,9 @@ margin-bottom: 150px
 
 
 .boxsec3{
-    height: 900px;
+    height: 1100px;
 
-    background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 94.9%), url(../images/codechefgroup.jpg) fixed center center no-repeat;
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 94.9%), url(../images/codechefgroup.jpg)  center  no-repeat;
   background-size: cover;
 }
 
@@ -364,8 +389,9 @@ color: #FFFFFF;
 .para{
 font-family: Montserrat;
 font-style: normal;
+font-size: 20px;
 font-weight: normal;
-font-size: 24px;
+
 line-height: 140%;
 /* or 45px */
 
@@ -476,6 +502,7 @@ width: 100%;
 background: #034E4A;
 height: 450px;
 padding-top: 50px;
+display: block;
 
 
 
@@ -496,7 +523,7 @@ color: #FFFDFD;
 	font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 150;
-font-size: 24px;
+font-size: 20px;
 line-height: 137.2%;
 margin-bottom: 50px;
 /* or 47px */
@@ -610,8 +637,8 @@ color: #FFFDFD;
   font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
-font-size: 32px;
-line-height: 44px;
+font-size: 28px;
+
 /* identical to box height */
 
 
@@ -685,6 +712,6 @@ color: #FFFDFD
   text-align: center;
   background: #FFFFFF;
 border-radius: 5px;
-width: 255.36px;
-height: 63.19px;
-}*/*/*/*/*/*/*/*/*/
+width:180px;
+height: 58px;
+}w1p1
