@@ -80,7 +80,7 @@ backface-visibility: hidden;
   font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
-font-size: 35px;
+font-size: 3.2vw;
 
 color: #FFFCFC;
 text-align: center;
@@ -393,7 +393,7 @@ margin-bottom: 150px
 	font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
-font-size: 64px;
+font-size: 7vmin;
 line-height: 78px;
 
 color: #FFFFFF;
@@ -402,7 +402,7 @@ color: #FFFFFF;
 .para{
 font-family: Montserrat;
 font-style: normal;
-font-size: 20px;
+font-size: 3vmin;
 font-weight: normal;
 
 line-height: 140%;
@@ -525,7 +525,7 @@ display: block;
 	font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
-font-size: 40px;
+font-size: 10vmin;
 color: #FFFDFD;
 
 }
