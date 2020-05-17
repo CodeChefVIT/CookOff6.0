@@ -80,7 +80,7 @@ backface-visibility: hidden;
   font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
-font-size: 3.2vw;
+font-size: 2.9vw;
 
 color: #FFFCFC;
 text-align: center;
@@ -93,7 +93,7 @@ text-align: center;
   border:none;
 font-style: normal;
 font-weight: 500;
-font-size: 30px;
+font-size: 24px;
 
 
 color: #FFFCFC;
@@ -113,7 +113,7 @@ text-align: center;
   font-family: Montserrat;
 font-style: normal;
 font-weight: 800;
-font-size: 70px;
+font-size: 60px;
 
 
 color: #FFFCFC;
@@ -155,7 +155,7 @@ margin-right: 0px;
   font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
-font-size: 40px;
+font-size: 30px;
 
 /* identical to box height */
 
@@ -165,7 +165,7 @@ color: #FFFFFF;
 .butt0{
   border: 4px solid #FFFFFF;
 box-sizing: border-box;
-height: 70px;
+height: 60px;
 
 
     background-color: Transparent;
@@ -512,7 +512,7 @@ color: #FFFFFF;
 }
 .box3{
 width: 100%;
-background: #034E4A;
+background:#012A36;
 height: 450px;
 padding-top: 50px;
 display: block;
@@ -525,7 +525,7 @@ display: block;
 	font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
-font-size: 10vmin;
+font-size: 7.5vmin;
 color: #FFFDFD;
 
 }
@@ -573,8 +573,8 @@ border: 1px solid #3A70FA;
 }
 
 .line2{
-	background: #35716E;
-border: 1px solid #35716E;
+	background: #012A36;
+border: 1px solid #012A36;
 box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 width: 100px;
 }
