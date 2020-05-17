@@ -3,17 +3,21 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
 
 
+.boxsec{
+  height:130vh;
+    background:  linear-gradient(180deg, rgba(6, 29, 63, 0.5) 71.87%, rgba(255, 255, 255, 0) 100%),url(../back2.jpg) no-repeat  center;
+    background-size: cover;
+backface-visibility: hidden;
+    width: 100%;
 
-.anchor{
-
-	font-family: Roboto;
-font-style: normal;
-font-weight: 900;
-font-size: 35px;
-line-height: 42px;
-
-color: #FFFFFF;
+    
+/*
+   background-origin: content-box;
+   background-size: auto;
+ 
+*/
 }
+
 .container1{
   background-image: url(images/back2.jpg);
   height: 400px;
@@ -97,7 +101,10 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 
   overflow: hidden;
 }
-
+.butt0{
+  border: 1px solid red;
+  border-radius: 30px;
+}
 /* Add a dark overlay */
 
 .new* {
@@ -300,7 +307,7 @@ color: #FFFBFB;
 }
 .box3{
 width: 100%;
-background: #034E4A;
+background: black;
 height: 450px;
 padding-top: 50px;
 margin-top: 50px;
@@ -311,7 +318,7 @@ margin-top: 50px;
 	font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
-font-size: 48px;
+font-size: 1px!important;
 line-height: 59px;
 
 color: #FFFDFD;

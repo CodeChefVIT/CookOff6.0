@@ -18,6 +18,23 @@
   }*/
 
 
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: scale3d(.75,.75,1);
+  }
+  to {
+    opacity: 1;
+    transform: scale3d(1,1,1);
+  }
+} 
+
+
+
+
+
+
+
 body{
   font-family: 'Montserrat', sans-serif;
 }
@@ -44,9 +61,9 @@ body{
 
 .boxsec{
   height:130vh;
-    background: url(../back2.jpg) no-repeat  center;
+    background:  linear-gradient(180deg, rgba(6, 29, 63, 0.5) 71.87%, rgba(255, 255, 255, 0) 100%),url(../back2.jpg) no-repeat  center;
     background-size: cover;
-
+backface-visibility: hidden;
     width: 100%;
 
     
@@ -58,35 +75,17 @@ body{
 }
 
 
-.new123 { 
-  font-family: Montserrat;
-  border:none;
-font-style: normal;
-font-weight: 500;
-font-size: 63px;
 
-
-color: #FFFCFC;
-}
 .text4{
   font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
-font-size: 35px;
+font-size: 2.9vw;
 
 color: #FFFCFC;
 text-align: center;
 }
-.text5{
-  font-family: Montserrat;
-font-style: normal;
-font-weight: 800;
-font-size: 100px;
 
-
-color: #FFFCFC;
-
-}
 
 @media (max-width: 480px){
 .new123{
@@ -94,7 +93,7 @@ color: #FFFCFC;
   border:none;
 font-style: normal;
 font-weight: 500;
-font-size: 30px;
+font-size: 24px;
 
 
 color: #FFFCFC;
@@ -114,7 +113,7 @@ text-align: center;
   font-family: Montserrat;
 font-style: normal;
 font-weight: 800;
-font-size: 70px;
+font-size: 60px;
 
 
 color: #FFFCFC;
@@ -156,7 +155,7 @@ margin-right: 0px;
   font-family: Montserrat;
 font-style: normal;
 font-weight: 500;
-font-size: 40px;
+font-size: 30px;
 
 /* identical to box height */
 
@@ -166,15 +165,26 @@ color: #FFFFFF;
 .butt0{
   border: 4px solid #FFFFFF;
 box-sizing: border-box;
-height: 70px;
+height: 60px;
+
 
     background-color: Transparent;
     background-repeat:no-repeat;
+    transition: all 1s;
 
     cursor:pointer;
     overflow: hidden;
 
 
+}
+.butt0:hover{
+  transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    border: 2px solid #3A70FA;
+}
+.butt0:active{
+  transform: translateY(-1px);
+      box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
 
   .butt0 > a{
@@ -185,6 +195,7 @@ height: 70px;
       width: 100%;
       height: 100%;
   }
+
 
 
 /*section2*/
@@ -367,7 +378,9 @@ margin-bottom: 150px
 
 
 .boxsec3{
-    height: 1100px;
+    height: 120vh;
+    background-position: top;
+
 
     background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 94.9%), url(../images/codechefgroup.jpg)  center  no-repeat;
   background-size: cover;
@@ -380,7 +393,7 @@ margin-bottom: 150px
 	font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
-font-size: 64px;
+font-size: 7vmin;
 line-height: 78px;
 
 color: #FFFFFF;
@@ -389,7 +402,7 @@ color: #FFFFFF;
 .para{
 font-family: Montserrat;
 font-style: normal;
-font-size: 20px;
+font-size: 3vmin;
 font-weight: normal;
 
 line-height: 140%;
@@ -414,7 +427,7 @@ margin-bottom: 50px;
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
-font-size: 35px;
+font-size: 4.2vw;
 line-height: 43px;
 /* identical to box height */
 
@@ -439,7 +452,7 @@ color: #FFFFFF;
 	font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
-font-size: 2.6vw;
+font-size: 4vmin;
 line-height: 43px;
 margin-right: 10px;
 /* identical to box height */
@@ -453,7 +466,7 @@ color: #FFFFFF;
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
-font-size: 2.6vw;
+font-size: 4vmin;
 line-height: 43px;
 margin-right: 10px;
 /* identical to box height */
@@ -479,7 +492,7 @@ margin-bottom: 50px;
 font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
-font-size: 2.6vw;
+font-size: 4vmin;
 line-height: 43px;
 /* identical to box height */
 
@@ -499,7 +512,7 @@ color: #FFFFFF;
 }
 .box3{
 width: 100%;
-background: #034E4A;
+background:#012A36;
 height: 450px;
 padding-top: 50px;
 display: block;
@@ -512,9 +525,7 @@ display: block;
 	font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
-font-size: 48px;
-line-height: 59px;
-
+font-size: 7.5vmin;
 color: #FFFDFD;
 
 }
@@ -534,79 +545,46 @@ color: #FFFFFF;
 }
 
 .bt1{
-	background: rgba(0, 4, 7, 0.2);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-width: 230px;
-height: 60px;
+background: #052D2B;
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 5px;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 30px;
 line-height: 41px;
-
+transition: all 1s;
+padding: 5px 15px;
 color: #FFFFFF;
 
 }
 .bt1:hover{
-  background-color: #33cc33; 
+
   opacity: 0.8;
+border: 1px solid #3A70FA;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
+.bt1:active{
+  transform: translateY(1px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+
+}
+
 .line2{
-	background: #35716E;
-border: 1px solid #35716E;
+	background: #012A36;
+border: 1px solid #012A36;
 box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 width: 100px;
 }
 
-/*section 5*/
 
-.box6{
-	background: #202020;
-border: 1px solid #000000;
-display: flex;
-align-items: center;
-justify-content: flex-end;
-height: 92px;
-width: 20%;
-margin-left: 70%;
-}
-.04{
-width: 213px;
-height: 61px;
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 28px;
 
-color: #FFFFFF;
 
-}
-.head3{
 
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 66px;
-line-height: 80px;
 
-color: #D4AF37;
 
-}
-#mail{
-	margin-top: 250px;
-	display: flex;
-	justify-content: initial;
-	align-content: flex-end;
-	flex-wrap: wrap;
-	font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 42px;
-
-color: #D4AF37;
-}
 /*footer*/
 
 .line6{
@@ -712,6 +690,34 @@ color: #FFFDFD
   text-align: center;
   background: #FFFFFF;
 border-radius: 5px;
-width:180px;
-height: 58px;
-}w1p1
+width:120px;
+height: 50px;
+
+transition: all 2s;
+}
+
+.butt2:hover{
+  background: rgba(55,255,255,0.5);
+
+
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  }
+  .butt2:active{
+  transform: translateY(1px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+
+}
+
+
+
+
+
+.input1{
+  background: transparent;
+  border: 1px solid #FFF;
+box-sizing: border-box;
+border-radius: 6px;
+color: #ffff;
+}
+
