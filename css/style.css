@@ -61,7 +61,7 @@ body{
 
 .boxsec{
   height:130vh;
-    background:  linear-gradient(180deg, rgba(6, 29, 63, 0.5) 71.87%, rgba(255, 255, 255, 0) 100%),url(../back2.jpg) no-repeat  center;
+    background:  linear-gradient(180deg, rgba(6, 29, 63, 0.5) 71.87%, rgba(255, 255, 255, 0) 100%),url(../back2-min.jpg) no-repeat  center;
     background-size: cover;
 backface-visibility: hidden;
     width: 100%;
@@ -382,7 +382,7 @@ margin-bottom: 150px
     background-position: top;
 
 
-    background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 94.9%), url(../images/codechefgroup.jpg)  center  no-repeat;
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 94.9%), url(../images/codechefgroup-min.jpg)  center  no-repeat;
   background-size: cover;
 }
 
@@ -649,7 +649,7 @@ color: #FFFDFD
     font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
-font-size: 32px;
+font-size: 28px;
 
 
 color: #FFFDFD;
@@ -660,7 +660,7 @@ color: #FFFDFD;
   font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
-font-size: 20px;
+font-size: 5px;
 
 /* identical to box height */
 
@@ -681,7 +681,7 @@ color: #FFFDFD
 
 }
 .foot1{
-  background: url('../images/cclogobg.png') no-repeat center ;
+  
     background-size: cover;
       background-size: 80% auto;
 
@@ -690,8 +690,9 @@ color: #FFFDFD
   text-align: center;
   background: #FFFFFF;
 border-radius: 5px;
-width:120px;
-height: 50px;
+width:100px;
+height: 36px;
+padding-bottom: 5px;
 
 transition: all 2s;
 }
@@ -708,6 +709,13 @@ transition: all 2s;
     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 
 }
+@media (max-width: 767px) {
+
+footer-top { padding: 40px 0; text-align: center; }
+  .footer-contact i { padding-right: 5px; }
+  .footer-bottom, .footer-social { text-align: center; }
+  .footer-social a { margin: 0 10px; }
+  }
 
 
 

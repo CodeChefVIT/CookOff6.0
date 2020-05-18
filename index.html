@@ -43,8 +43,72 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="icon"  href="favicon.ico">
 
+
  
   <style type="text/css">
+    /*media querries footer*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+  
+  .footer-top { padding: 40px 0; }
+  .footer-social a { margin-right: 10px; }
+  
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  
+
+  
+  .footer-top { padding: 40px 0; }
+  .footer-contact i { padding-right: 5px; }
+  .footer-social a { margin-right: 10px; }
+  
+
+
+}
+
+@media (max-width: 767px) {
+
+
+  
+  .footer-top { padding: 40px 0; text-align: center; }
+  .footer-contact i { padding-right: 5px; }
+  .footer-bottom, .footer-social { text-align: center; }
+  .footer-social a { margin: 0 10px; }
+  
+
+  
+}
+
+@media (max-width: 415px) {
+  
+  h1, h2 { font-size: 32px; }
+
+}
+   /*media querries footer ends*/ 
+.footer-top h3 { padding-bottom: 10px; color: #fff; }
+
+
+.footer-about p a { color: #aaa; border-bottom: 1px dashed #666; }
+.footer-about p a:hover, .footer-about p a:focus { color: #fff; border-color: #aaa; }
+
+.footer-contact p { word-wrap: break-word; }
+.footer-contact i { padding-right: 10px; font-size: 18px; color: #666; }
+.footer-contact p a { color: #aaa; border-bottom: 1px dashed #666; }
+.footer-contact p a:hover, .footer-contact p a:focus { color: #fff; border-color: #aaa; }
+
+.footer-social a { display: inline-block; margin-right: 20px; margin-bottom: 8px; color: #777; border: 0; }
+.footer-social a:hover, .footer-social a:focus { color: #aaa; border: 0; }
+.footer-social i { font-size: 24px; vertical-align: middle; }
+
+.footer-bottom { padding: 15px 0; background: #444; text-align: left; color: #aaa; }
+
+.footer-copyright p { margin: 0; padding: 0.5rem 0; }
+.footer-copyright a { color: #fff; border: 0; }
+.footer-copyright a:hover, .footer-copyright a:focus { color: #aaa; border: 0; }
+
     @keyframes mymove {
   from { opacity: 0;
     transform: scale3d(.75,.75,1);}
@@ -95,7 +159,17 @@ font-size: 12vmin;
 color: #FFFCFC;
 
 }
-
+@media (max-width: 767px) {
+ 
+    /* ... */
+ 
+    .top-content .carousel-control-prev, 
+    .top-content .carousel-control-next { display: none; }
+    .top-content .carousel-indicators li { margin-left: 10px; margin-right: 10px; }
+ 
+    /* ... */
+ 
+}
 
   </style>
 
@@ -181,43 +255,53 @@ color: #FFFFFF" href="#contactus">CONTACT US</a>
 <section id ="about">
  
 	<br>
- <div class="container">
-<div id="demo" class="carousel slide" data-ride="carousel">
-  <ul class="carousel-indicators" >
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-  </ul>
-  <div class="carousel-inner" style="height:;">
-    <div class="carousel-item active">
-      <img src="code2.jpg" alt="" style="height:;">
-      <div class="carousel-caption">
-        <h3>Code To Compete</h3>
-        <p>Be Fast</p>
-      </div>   
+<!-- Top content -->
+<div class="top-content">
+    <div class="container">
+        <!-- Title and description row -->
+
+        <!-- End title and description row -->
+        <!-- Carousel row -->
+        <div class="row">
+            <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                <!-- Carousel -->
+                <div id="carousel-example" class="carousel slide">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example" data-slide-to="1"></li>
+                        <li data-target="#carousel-example" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6hgVihWjK2c?rel=0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/84910153?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=ffffff" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oiKj0Z_Xnjc" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <!-- End carousel -->
+            </div>
+        </div>
+        <!-- End carousel row -->
     </div>
-    <div class="carousel-item">
-      <img src="codec1.jpg" alt="Chicago" style="height:;">
-      <div class="carousel-caption">
-        <h3>Code To Compete</h3>
-        <p>Get ready to decode the question</p>
-      </div>   
-    </div>
-    <div class="carousel-item">
-      <img src="codecc1.jpg" alt="New York" style="height">
-      <div class="carousel-caption">
-        <h3>Code To Compete </h3>
-        <p>COMPETE</p>
-      </div>   
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
-</div>
 </div>
 
   
@@ -354,57 +438,53 @@ REGISTRATION
 
 
 </div>
-<div id="contactus">
+<br><br>
 
-<div class="container foot1" style="height: 600px;">
-	<div class="row">
-	<div class="col-sm-6 " style="padding-top: 80px;">
-		<div >
-		<p class="w1h">CONTACT US </p>
-	</div>
-		<br><br><br>
-		<div >
-		
-		<p class="w1p1" style="display: inline-block;"><a href="mailto:codechefvit@gmail.com"><i class="far fa-envelope"></i> codechefvit@gmail.com</a></p>
-		</div>
-		<br>
-		<div >
-		
-		<p class="w1p1" style="display: inline-block;"><a href="https://www.instagram.com/codechefvit/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i> codechefvit</a></p>
-		</div><br>
-		<div >
-		
-		<p class="w1p1"style="display: inline-block;"><a href="https://www.facebook.com/codechefvit/" target="_blank"><i class="fab fa-facebook-square" aria-hidden="true"></i>  codechefvit</a></p>
-		</div>
-		<br>
-		<div >
-	
-		<p class="w1p1" style="display: inline-block;"><a href="https://github.com/codechefvit" target="_blank"><i class="fab fa-github" aria-hidden="true"></i>   codechefvit</a></p>
-	</div>
-	</div>
+  <footer>
+          <div class="footer-top">
+            <div class="container foot1">
+              <div class="row">
+                <div class="col-md-4 col-lg-4 footer-about wow fadeInUp">
+                  <img class="logo-footer" src="images/CC white logo .png" alt="logo-footer" data-at2x="images/CC white logo .png" style=" margin-top:0px;width: 130px;
+height: 50px;"><br><br><br>
+                  <p style="font-size: 16px; color: white;">
 
-	<div class="col-sm-6" style="  ;padding-top: 80px;">
-		<p class="w2h2">SUBSCRIBE TO OUT NEWS LETTER</p>
-		
-		<br>
-		<input type="text" name="name" placeholder="  Name" class="input1" style="width: 100%;">
-		<br><br><br>
-		<input type="text" name="email" placeholder="  Email" class="input1" style="width: 100%;">
-		<br><br><br>
-		<center><button class="butt2"><p style=" font-family: Montserrat;
+                    We are a young company always looking for new and creative ideas to help you with our products in your everyday work.
+                  </p><br>
+                  <p class="w1p1"><a href="#"><p align="center" style=" font-family: Montserrat;
 font-style: normal;.
-
 font-weight: 600;
-font-size: 20px;
+font-size: 16px;
+
 line-height: 41px;
+color: #000000;">Our Team</p></a></p>
+                      </div>
+                <div class="col-md-4 col-lg-4 offset-lg-1 footer-contact wow fadeInDown">
+                  <h3 class="w1h">Contact</h3>
+                  <br>
+                   
+                      <p ><i class="fas fa-phone" style="color:white"></i> <span style="font-size: 16px; color: white;">Phone:8617041002</span></p>
+                      <p><i class="fas fa-envelope" style="color:white"></i> <span style="font-size: 16px; color: white;   text-decoration: none;">Email: <a href="mailto:codechefvit@gmail.com"style="  text-decoration: none;">codechefvit@gmail.com</a></span></p>
+                      <p><i class="fab fa-skype" style="color:white"></i> <span style="font-size: 16px; color: white;">Skype: you_online</span></p>
+                      </div>
+                      <div class="col-md-4 col-lg-3 footer-social wow fadeInUp"><br>
+                        <h3 class="w1h">Follow us</h3>
+                        <br>
+                        <p>
+                          <a  href="https://www.facebook.com/codechefvit/" target="_blank"><i class="fab fa-facebook" style="color:white ;font-size: 24px;"></i></a> 
+                <a href="#"><i class="fab fa-twitter" style="color:white; font-size: 24px;"></i></a> 
+                <a href="#"><i class="fab fa-google-plus-g" style="color:white; font-size: 24px;"></i></a> 
+                <a a href="https://www.instagram.com/codechefvit/" target="_blank"><i class="fab fa-instagram" style="color:white ; font-size: 24px;"></i></a> 
+                <a href="https://github.com/codechefvit" target="_blank"><i  style="color:white; font-size: 24px;" class="fab fa-github" aria-hidden="true"></i>  </a>
+     
+                        </p>
+                      </div>
+                </div>
+            </div>
+          </div>
+         
+        </footer>
 
-color: #000000;
-">Subscribe</p></button></center>
-
-	</div>
-</div>
-
-</div>
 
 </div>
 
@@ -421,7 +501,14 @@ color: #000000;
 
 
 
-
+ <script src="assets/js/jquery-3.2.1.min.js"></script>
+     
+  
+  
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/retina-1.1.0.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
 
 
 <script src="javascript/script.js"></script>
