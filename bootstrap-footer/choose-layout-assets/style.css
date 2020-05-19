@@ -1,0 +1,62 @@
+
+body {
+	background: #f8f8f8; font-family: 'Open Sans', sans-serif; font-size: 15px; 
+	font-weight: 400; color: #888; line-height: 30px; text-align: center;
+}
+
+strong { font-weight: 600; }
+
+a { color: #856dc0; border-bottom: 1px dashed #856dc0; text-decoration: none; transition: all .3s; }
+a:hover, a:focus { color: #856dc0; border: 0; text-decoration: none; }
+
+h1, h2 { margin-top: 10px; font-size: 38px; font-weight: 300; color: #555; line-height: 50px; font-style: italic; }
+h3 { font-size: 22px; font-weight: 300; color: #555; line-height: 30px; font-style: italic; }
+.no-margin-top h3 { margin-top: 0; }
+
+img { max-width: 100%; }
+
+::-moz-selection { background: #7762ac; color: #fff; text-shadow: none; }
+::selection { background: #7762ac; color: #fff; text-shadow: none; }
+
+
+.container { padding-bottom: 60px; }
+
+.section-container { margin: 0 auto; }
+
+.section-description { margin-top: 60px; padding-bottom: 10px; }
+.section-description.no-margin-top { margin-top: 0; }
+
+.section-description p { margin-top: 20px; padding: 0 120px; }
+
+.top { margin: 0 auto; padding: 40px 0 50px 0; }
+.top h1 { margin-top: 40px; padding-left: 15px; padding-right: 15px; }
+.top p { margin-top: 20px; padding-left: 15px; padding-right: 15px; }
+
+.layouts { border-top: 1px solid #ddd; }
+
+.layout-box { padding: 30px 20px 20px 20px; }
+.layout-box h3 { padding: 10px 0; }
+.layout-box p { margin-top: 20px; margin-bottom: 0; }
+.layout-box img { border: 5px solid #eee; transition: all .3s; }
+.layout-box a:hover img { border-color: #ddd; }
+
+.footer { padding-top: 30px; padding-bottom: 30px; border-top: 1px solid #ddd; }
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	.section-description p { padding: 0; }
+	
+}
+
+@media (max-width: 767px) {
+
+	.section-description p { padding: 0; }
+	
+}
+
+@media (max-width: 415px) {
+	
+	h1, h2 { font-size: 32px; }
+
+}
