@@ -552,8 +552,8 @@ border-radius: 5px;
   transition: transform .5s; 
 }
 .a11:hover{
-   -webkit-transform: scale(1.1); /* Safari 3-8 */
-  transform: scale(1.1); 
+   -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05); 
 }
 
 .box44:hover {
