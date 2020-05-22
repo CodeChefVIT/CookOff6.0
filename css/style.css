@@ -331,9 +331,7 @@ font-weight: 600;
 
 }*/
 
-.time h2 {
-  margin: 0 0 5px;
-}
+
 
 @media (max-width: 500px) {
   h1 {
@@ -342,6 +340,8 @@ font-weight: 600;
 
   .time {
     margin: 5px;
+    margin-right: 10px;
+
 
   }
 
