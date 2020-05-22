@@ -252,8 +252,8 @@ width: 100%;
 
 .new {
 	margin-top: 50px;
-	margin-bottom: 50px
- background: rgba(28, 28, 28, 0.8);
+	margin-bottom: 50px;
+
 
   height: 30vh;
   color: #fff;
@@ -278,20 +278,20 @@ width: 100%;
 
   font-family: Montserrat;
 font-style: normal;
-font-size: 36px;
+font-size: 32px;
 font-weight: 600;
 text-align: center;
 }
 #hours{
   text-align: center;
-  font-size: 36px;
+  font-size: 32px;
   font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
 }
 #minutes{
   text-align: center;
-  font-size: 36px;
+  font-size: 32px;
  
    font-family: Montserrat;
 font-style: normal;
@@ -299,14 +299,22 @@ font-weight: 600;
 }
 #seconds{
   text-align: center;
-  font-size: 36px;
+  font-size: 32px;
 
   font-family: Montserrat;
 font-style: normal;
 font-weight: 600;
 }
 
+@media (max-width: 500px) {
 
+
+
+
+
+
+
+}
 
 
 /*.countdown {
@@ -323,9 +331,7 @@ font-weight: 600;
 
 }*/
 
-.time h2 {
-  margin: 0 0 5px;
-}
+
 
 @media (max-width: 500px) {
   h1 {
@@ -334,6 +340,8 @@ font-weight: 600;
 
   .time {
     margin: 5px;
+    margin-right: 10px;
+
 
   }
 
@@ -364,9 +372,19 @@ width:100%;
 }
 
 .abc{
-  width: 19%;
+  width: 17%;
 
 
+}
+
+
+
+@media (max-width: 500px) {
+  .abc{
+  width: 10%;
+
+
+}
 }
 /*section3*/
 #box1{
@@ -402,7 +420,7 @@ color: #FFFFFF;
 .para{
 font-family: Montserrat;
 font-style: normal;
-font-size: 3vmin;
+font-size: 3.2vmin;
 font-weight: normal;
 
 line-height: 140%;
@@ -544,6 +562,7 @@ color: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 5px;
 
+
   cursor:pointer;
   transition:all 5s ease-in-out;
     transition: transform .5s;
@@ -596,8 +615,8 @@ color: #FFFFFF;
 }
 
 .bt1{
-background: #012A36;
-border: 1px solid #FFFFFF;
+background: #142235;
+border: 0.5px solid #FFFFFF;
 box-sizing: border-box;
 border-radius: 5px;
 font-family: Roboto;
@@ -613,8 +632,8 @@ color: #FFFFFF;
 .bt1:hover{
 
   opacity: 0.8;
-border: 1px solid #3A70FA;
-  transform: translateY(-3px);
+border: 0.5px solid #142235;
+  transform: translateY(-4px);
   box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 .bt1:active{
@@ -772,11 +791,5 @@ footer-top { padding: 40px 0; text-align: center; }
 
 
 
-.input1{
-  background: transparent;
-  border: 1px solid #FFF;
-box-sizing: border-box;
-border-radius: 6px;
-color: #ffff;
-}
 
+.
