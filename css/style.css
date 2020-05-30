@@ -17,7 +17,6 @@
 
   }*/
 
-
 @keyframes fade {
   from {
     opacity: 0;
@@ -249,10 +248,14 @@ width: 100%;
 * {
   box-sizing: border-box;
 }
+.a1{
+  width:70vw;
+}
 
 .new {
 	margin-top: 50px;
 	margin-bottom: 50px;
+
 
 
   height: 30vh;
@@ -338,25 +341,7 @@ font-weight: 600;
     font-size: 45px;
   }
 
-  .time {
-    margin: 5px;
-    margin-right: 10px;
-
-
-  }
-
-  .time h2 {
-    font-size: 12px;
-    margin: 0;
-  }
-
-  .time small {
-    font-size: 10px;
-  }
-  .a{
-    background: rgba(255, 255, 255, 0.15);
-    width: 40px;
-  }
+  
 }
 
 .a{
