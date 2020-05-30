@@ -320,17 +320,18 @@ font-weight: 600;
 }
 
 
-/*.countdown {
-   display: flex; 
+.countdown {
+width:70vw;
 
-  transform: scale(2);
-}*/
+
+  /*transform: scale(2);*/
+}
 
 /*.time {
   display: flex;
   flex-direction: column;
  
-  justify-content: space-between;
+
 
 }*/
 
