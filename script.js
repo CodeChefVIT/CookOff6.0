@@ -15,10 +15,6 @@
 
 
 
-
-
-
-
 const days = document.getElementById('days');
 const hours = document.getElementById('hours');
 const minutes = document.getElementById('minutes');

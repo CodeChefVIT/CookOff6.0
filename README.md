@@ -1,11 +1,24 @@
-# CookOff6.0
-Official website for our flagship graVITas event for the year 2020.
+			 CookOff6.0
 
-Cook off -6.0 is the official website for  a coding competition conducted by codechef-VIT
+Project Title:
+Official website for Codechef-vit  flagship graVITas event for the year 2020.
 
-Languages/Frameworks used:
-1>html
-2>css
-3>Bootstrap
-4>javascript
-5>jquery
+Features:
+>html:layout
+>css:designing of the website
+>bootstrap:making it responsive(image grid,footer)
+>javascript:Dyanamic features of the website(countdown)
+>jquery
+
+Instructions to run:
+$ git clone https://github.com/CodeChefVIT/CookOff6.0.git
+$ cd CookOff6.0
+$ pip3 install -r requirements.txt
+$ python3 manage.py runserver
+
+Contributors
+Avipriya Ghosh
+
+License
+With ❤️ by CodeChef-VIT
+
