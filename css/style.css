@@ -982,14 +982,13 @@ transition: all 2s;
 @media (max-width: 767px) {
 
 footer-top { padding: 40px 0; text-align: center; }
-  .footer-contact i { padding-right: 5px; }
+  
   .footer-bottom, .footer-social { text-align: center; }
   .footer-social a { margin: 0 10px; }
   }
 
 
 
-
-
-
-.
+.anchorfooter a:hover{
+  text-decoration: none;
+}
