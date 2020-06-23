@@ -29,7 +29,55 @@
 } 
 
 
+  
 
+h1 {
+  color: #fcfcfc;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* .jumbotron { */
+    /* Chrome 10-25, safari 5.1-6   */
+/*   background: -webkit-linear-gradient(to right, #002259, #fcfcfc); */
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*   background: linear-gradient(to right, #fcfcfc, #002259); */
+/*  }  */
+
+.image1 {
+  background-image: url(../images/codechefgroup-min.jpg);
+}
+
+.image2 {
+  background-image: url(../images/codechef-group.jpeg);
+}
+
+.image3 {
+  background-image: url(../images/Round-1.jpeg);
+}
+
+.image4 {
+  background-image: url(../images/Round-2.jpg);
+}
+
+.image5 {
+  background-image: url(../images/Cook-off5.0.jpeg);
+}
+
+.image6 {
+  background-image: url(../images/Cook-off_posters.jpg);
+}
+
+.image {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.thumbnail {
+  border-color: black;
+}
 @media (min-width: 992px) and (max-width: 1199px) {
 
 
