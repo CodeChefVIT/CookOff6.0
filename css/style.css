@@ -94,20 +94,8 @@ h1 {
 
 
 }
-@media (max-width: 415px){
-    .abc{
-  width: 20%;
 
-
-}
-.abcd{
-   width: 1%;
-}
-
-.a1{
-  width:90%;
-}
-}
+  
 
     /*media querries footer*/
 
@@ -649,10 +637,19 @@ width:100%;
 
 
 @media (max-width: 500px) {
+  
   .abc{
-  width: 10%;
+ width: 1000px;
 
 
+}
+.abcd{
+   width:0px;
+}
+
+.a1{
+  width:90%;
+}
 }
 }
 /*section3*/
