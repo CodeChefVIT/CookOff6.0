@@ -145,14 +145,14 @@ h1 {
 .footer-about p a { color: #aaa; border-bottom: 1px dashed #666; }
 .footer-about p a:hover, .footer-about p a:focus { color: #fff; border-color: #aaa; }
 
-.footer-contact p { word-wrap: break-word; }
-.footer-contact i { padding-right: 10px; font-size: 18px; color: #666; }
+.footer-contact p { word-wrap: break-word; padding-left: 50px; }
+.footer-contact i { padding-left: 50px; font-size: 18px; color: #666; }
 .footer-contact p a { color: #aaa; border-bottom: 1px dashed #666; }
 .footer-contact p a:hover, .footer-contact p a:focus { color: #fff; border-color: #aaa; }
 
-.footer-social a { display: inline-block; margin-right: 20px; margin-bottom: 8px; color: #777; border: 0; }
+.footer-social a { display: inline-block; margin-left: 10px; margin-bottom: 8px; color: #777; border: 0; }
 .footer-social a:hover, .footer-social a:focus { color: #aaa; border: 0; }
-.footer-social i { font-size: 24px; vertical-align: middle; }
+.footer-social i { font-size: 24px; vertical-align: middle;margin-left: 10px }
 
 .footer-bottom { padding: 15px 0; background: #444; text-align: left; color: #aaa; }
 
