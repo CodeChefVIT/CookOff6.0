@@ -1,42 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const days = document.getElementById('days');
 const hours = document.getElementById('hours');
 const minutes = document.getElementById('minutes');
@@ -47,13 +8,11 @@ const loading = document.getElementById('loading');
 
 const currentYear = new Date().getFullYear();
 
-const newYearTime = new Date(`October 1 ${currentYear + 1} 21:54:00`);
-
-
+const newYearTime = new Date("Oct 1, 2020 15:37:25").getTime();
 
 // Update countdown time
 function updateCountdown() {
- 
+
   const currentTime = new Date();
   const diff = newYearTime - currentTime;
 
