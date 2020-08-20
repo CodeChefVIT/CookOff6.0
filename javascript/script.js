@@ -47,7 +47,7 @@ const loading = document.getElementById('loading');
 
 const currentYear = new Date().getFullYear();
 
-const newYearTime = new Date(`April 20 ${currentYear + 1} 21:54:00`);
+const newYearTime = new Date(`October 1 ${currentYear + 1} 21:54:00`);
 
 
 
