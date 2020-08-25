@@ -8,11 +8,13 @@ const loading = document.getElementById('loading');
 
 const currentYear = new Date().getFullYear();
 
-const newYearTime = new Date("Oct 1, 2020 15:37:25").getTime();
+const newYearTime = new Date(` october 3 ${currentYear } 11:00:00`);
+
+
 
 // Update countdown time
 function updateCountdown() {
-
+ 
   const currentTime = new Date();
   const diff = newYearTime - currentTime;
 
@@ -38,8 +40,3 @@ setTimeout(() => {
 
 // Run every second
 setInterval(updateCountdown, 1000);
-
-
-
-
-
