@@ -6,23 +6,23 @@
 >Official website for Codechef-vit  flagship graVITas event for the year 2020.
 
 ##Screenshots
-<img src="https://github.com/avighosh19/CookOff6.0/tree/master/images/CookOff.png" alt="Cookoff-6.0 Screenshots">
+<img src="https://github.com/avighosh19/CookOff6.0/blob/master/images/CookOff.png" alt="Cookoff-6.0 Screenshots">
 
 
 
 
 
 Features:
->html:layout
->css:designing of the website
->bootstrap:making it responsive(image grid,footer)
->javascript:Dyanamic features of the website(countdown)
+>html:layout<br>
+>css:designing of the website<br>
+>bootstrap:making it responsive(image grid,footer)<br>
+>javascript:Dyanamic features of the website(countdown)<br>
 >jquery
 
 Instructions to run:
-$ git clone https://github.com/CodeChefVIT/CookOff6.0.git
-$ cd CookOff6.0
-$ pip3 install -r requirements.txt
+$ git clone https://github.com/CodeChefVIT/CookOff6.0.git<br>
+$ cd CookOff6.0<br>
+$ pip3 install -r requirements.txt<br>
 $ python3 manage.py runserver
 
 Contributors
