@@ -468,6 +468,7 @@ background: #0000;
 .linetime{
   border: 1px solid #FFFFFF;
   width:50%;
+
 }
 
 
@@ -631,6 +632,7 @@ width:100%;
 
 .abc{
   width: 17%;
+  padding-top: 20px;
 
 
 }
@@ -873,6 +875,7 @@ line-height: 41px;
 transition: all 1s;
 padding: 5px 15px;
 color: #FFFFFF;
+margin-bottom: 10px;
 
 }
 .bt1:hover{
