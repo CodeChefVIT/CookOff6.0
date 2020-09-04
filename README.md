@@ -22,8 +22,8 @@
 ## Instructions to run
 
 ```
-$ git clone https://github.com/CodeChefVIT/CookOff6.0.git<br>
-$ cd CookOff6.0<br>
+$ git clone https://github.com/CodeChefVIT/CookOff6.0.git
+$ cd CookOff6.0
 $ live-server
 ```
 
